@@ -1,0 +1,16 @@
+1.安装基座--本次使用vue作为基座
+2.安装子应用   vue :  vue create vue-app
+3.安装子应用 react :  npx create-react-app react-app
+
+4.base配置
+5.vue-app配置
+6.react-app配置
+	重写配置文件（变线-可以像vue编写webpack的配置）：
+		安装：yarn add react-app-rewired --save
+		修改package.json：将scripts模块中的 react-scripts 替换成 react-app-rewired
+		根目录新建config-overrides.js 并编写
+		：启动命令 yarn start
+	配置环境变量
+		根目录新建.env
+		: PORT 默认会读取这个
+		: WDS_SOCKET_PORT 默认的端口号为3800
