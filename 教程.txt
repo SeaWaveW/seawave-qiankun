@@ -1,7 +1,6 @@
 1.安装基座--本次使用vue作为基座
 2.安装子应用   vue :  vue create vue-app
 3.安装子应用 react :  npx create-react-app react-app
-
 4.base配置
 5.vue-app配置
 6.react-app配置
